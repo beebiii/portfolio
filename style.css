@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
 /* fontawesome */
-@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 /* reset css */
 html,body,h1,h2,h3,h4,h5,h6,div,p,blockquote,pre,code,address,ul,ol,li,menu,nav,section,article,aside,
@@ -105,6 +105,10 @@ header {position: fixed; left: 0; top: 0; z-index: 10; width: 100%; padding: 0 5
 .about ul li a:hover:before {margin-left: 0; opacity: 1;}
 .about .contact {position: relative; padding: 50px 0 20px; font-size: 14px; color: #aaa; font-weight: 400; line-height: 1.5em;}
 .about .contact:before {content: ''; position: absolute; left: 0; top: 30px; width: 15px; height: 2px; background: #ffcc4e;}
+.about .contact a {display: block; padding: 10px 0; color: #aaa;}
+.about .contact a:before {content:'\f09b'; margin-right: 6px; font-family: fontawesome;}
+.about .contact a:after {content:'\f105'; margin-left: 4px; font-family: fontawesome; vertical-align: 1px; transition: .3s;}
+.about .contact a:hover:after {margin-left: 8px; color: #ffcc4e;}
 .about p {font-size: 11px; text-transform: capitalize; color: #aaa; font-weight: 300;}
 
 /* svg */
